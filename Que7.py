@@ -1,0 +1,22 @@
+my_dict = {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York"
+}
+print("Dictionary:", my_dict)
+
+print("Name:", my_dict["name"])
+print("Age:", my_dict["age"])
+
+my_dict["age"] = 26
+print("Updated Age:", my_dict["age"])
+
+my_dict["country"] = "USA"
+print("Dictionary after adding country:", my_dict)
+
+del my_dict["city"]
+print("Dictionary after removing city:", my_dict)
+
+print("Keys:", my_dict.keys())
+print("Values:", my_dict.values())
+print("Items:", my_dict.items())

@@ -1,0 +1,21 @@
+a = 10
+print("Integer:", a)
+
+b = 10.5
+print("Float:", b)
+
+c = 3 + 4j
+print("Complex:", c)
+
+d = True
+print("Boolean:", d)
+
+print("\n--- Operations ---")
+print("Integer + Float:", a + b)
+print("Integer + Complex:", a + c)
+print("Boolean + Integer:", d + a)  
+
+print("\n--- Type Conversion ---")
+print("Float to Integer:", int(b))
+print("Integer to Float:", float(a))
+print("Integer to Complex:", complex(a))

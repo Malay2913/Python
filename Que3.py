@@ -1,0 +1,9 @@
+str1 = "Hello"
+str2 = "World"
+
+result = str1 + " " + str2
+print("Concatenated String:", result)
+
+print("First 5 characters:", result[0:5])
+print("Characters from index 6 onwards:", result[6:])
+print("Last 3 characters:", result[-3:])
